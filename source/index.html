@@ -20,16 +20,16 @@
       <div class="main-header__logo-wrap header-logo">
         <a class="header-logo__logo-link" href="#">
           <picture>
-            <source media="(min-width: 1300px)" width="70" height="59" type="image/svg+xml" srcset="/images/icons/logo-desktop-header.svg">
-            <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="/images/icons/logo-tablet-header.svg">
-            <img class="header-logo__logo-image" src="/images/icons/logo-mobile-header.svg" width="33" height="38" alt="Логотип сайта 'Кэт энерджи'">
+            <source media="(min-width: 1300px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-desktop-header.svg">
+            <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-tablet-header.svg">
+            <img class="header-logo__logo-image" src="images/logo-mobile-header.svg" width="33" height="38" alt="Логотип сайта 'Кэт энерджи'">
           </picture>
         </a>
         <a class="header-logo__logo-title-link" href="#">
           <picture>
-            <source media="(min-width: 1300px)" width="118" height="21" type="image/svg+xml" srcset="/images/icons/logo-title-desktop-header.svg">
-            <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="/images/icons/logo-title-tablet-header.svg">
-            <img class="header-logo__logo-title-image" src="/images/icons/logo-title-mobile-header.svg" width="101" height="18" alt="Логотип с наименованием сайта 'Кэт энерджи'">
+            <source media="(min-width: 1300px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-title-desktop-header.svg">
+            <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-title-tablet-header.svg">
+            <img class="header-logo__logo-title-image" src="images/logo-title-mobile-header.svg" width="101" height="18" alt="Логотип с наименованием сайта 'Кэт энерджи'">
           </picture>
         </a>
         <button class="main-header__button button-toggle" type="button">
@@ -81,7 +81,11 @@
           <ul class="programs__products-list">
             <li class="programs__products-item products-cards">
               <article class="products-cards__slim products-slim">
-                <span class="visually-hidden">Логотип продуктов для похудения</span>
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="images/logo-cat-slim-mobile.svg" width="100" height="106" type="image/svg+xml">
+                  <source media="(min-width: 768px)" srcset="images/logo-cat-slim-mobile.svg" width="200" height="211" type="image/svg+xml">
+                  <img class="products-slim__image" src="images/logo-cat-slim-mobile.svg" width="50" height="53" alt="Логотип продуктов для похудения">
+                </picture>
                 <h3 class="products-slim__title products-cards__title">Похудение</h3>
                 <p class="products-slim__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
                 <a class="products-slim__link products-cards__link" href="#">Каталог slim</a>
@@ -89,7 +93,11 @@
             </li>
             <li class="programs__product-item products-cards">
               <article class="products-cards__pro products-pro">
-                <span class="visually-hidden">Логотип продуктов для набора массы</span>
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="images/logo-cat-pro-mobile.svg" width="134" height="100" type="image/svg+xml">
+                  <source media="(min-width: 768px)" srcset="images/logo-cat-pro-mobile.svg" width="268" height="200" type="image/svg+xml">
+                  <img class="products-pro__image" src="images/logo-cat-pro-mobile.svg" width="67" height="50" alt="Логотип продуктов для набора массы">
+                </picture>
                 <h3 class="products-pro__title products-cards__title">Набор массы</h3>
                 <p class="products-pro__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
                 <a class="products-pro__link products-cards__link" href="#">Каталог pro</a>
@@ -106,25 +114,37 @@
         <div class="application__list-wrap">
           <ul class="application__list">
             <li class="application__item">
-              <span class="visually-hidden">Изображение листок</span>
+              <picture>
+                <source media="(min-width: 768px)" srcset="images/icon-leaf-mobile.svg" width="80" height="80" type="image/svg+xml">
+                <img class="application__image" src="images/icon-leaf-mobile.svg" width="60" height="60" alt="Изображение листка растения">
+              </picture>
               <p class="application__item-text">Функциональное питание
                 содержит только полезные
                 питательные вещества.</p>
             </li>
             <li class="application__item">
-              <span class="visually-hidden">Изображение жидкость</span>
+              <picture>
+                <source media="(min-width: 768px)" srcset="images/icon-drink-mobile.svg" width="80" height="80" type="image/svg+xml">
+                <img class="application__image" src="images/icon-drink-mobile.svg" width="60" height="60" alt="Изображение жидкой пищи">
+              </picture>
               <p class="application__item-text">Выпускается в виде порошка,
                 который нужно лишь залить
                 кипятком и готово.</p>
             </li>
             <li class="application__item">
-              <span class="visually-hidden">Изображение столовые приборы</span>
+              <picture>
+                <source media="(min-width: 768px)" srcset="images/icon-eat-mobile.svg" width="80" height="80" type="image/svg+xml">
+                <img class="application__image" src="images/icon-eat-mobile.svg" width="60" height="60" alt="Изображение столовых приборы">
+              </picture>
               <p class="application__item-text">Замените один-два приема
                 обычной еды на наше
                 функциональное питание.</p>
             </li>
             <li class="application__item">
-              <span class="visually-hidden">Изображение часы</span>
+              <picture>
+                <source media="(min-width: 768px)" srcset="images/icon-watch-mobile.svg" width="80" height="80" type="image/svg+xml">
+                <img class="application__image" src="images/icon-watch-mobile.svg" width="60" height="60" alt="Изображение часов">
+              </picture>
               <p class="application__item-text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
             </li>
           </ul>
@@ -199,23 +219,23 @@
       <div class="main-footer__contacts contacts">
         <div class="container">
           <a class="contacts__footer-logo-link" href="#">
-            <img class="contacts__footer-logo-title-image" src="/images/icons/icon-title-footer-logo.svg" width="128" height="24" alt="Логотип c наименованием сайта 'Кэт энерджи'">
+            <img class="contacts__footer-logo-title-image" src="images/icon-title-footer-logo.svg" width="128" height="24" alt="Логотип c наименованием сайта 'Кэт энерджи'">
           </a>
           <div class="contacts__social social">
             <ul class="social__list">
               <li class="social__item">
                 <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="/images/icons/icon-vkontakte-mobile.svg" width="28" height="22" alt="Иконка VK">
+                  <img class="social__item-link-image" src="images/icon-vkontakte-mobile.svg" width="28" height="22" alt="Иконка VK">
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="/images/icons/icon-youtube-mobile.svg" width="28" height="22" alt="Иконка Youtube">
+                  <img class="social__item-link-image" src="images/icon-youtube-mobile.svg" width="28" height="22" alt="Иконка Youtube">
                 </a>
               </li>
               <li class="social__item">
                 <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="/images/icons/icon-telegram-mobile.svg" width="28" height="22" alt="Иконка Telegram">
+                  <img class="social__item-link-image" src="images/icon-telegram-mobile.svg" width="28" height="22" alt="Иконка Telegram">
                 </a>
               </li>
             </ul>
@@ -225,7 +245,7 @@
               <p class="copyright__text">HTML Academy</p>
             </a>
             <a class="copyright__logo-link" href="#">
-              <img class="copyright__logo-image" src="/images/icons/icon-html-academy-footer-mobile.svg" width="27" height="34" alt="Иконка HTML Academy">
+              <img class="copyright__logo-image" src="images/icon-html-academy-footer-mobile.svg" width="27" height="34" alt="Иконка HTML Academy">
             </a>
           </div>
         </div>
