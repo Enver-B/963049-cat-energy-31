@@ -26,17 +26,17 @@
   width: 280px;
 }
 
-.example__image-cat {
+.example-image-cat {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
 
-.image-cat--before {
+.image-cat-before {
   background-color: $basic-grey;
   z-index: 1;
 }
 
-.image-cat--after {
+.image-cat-after {
   width: var(--pos);
   background-color: $basic-grey;
   z-index: 2;
