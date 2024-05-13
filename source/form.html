@@ -18,14 +18,14 @@
   <header class="main-header">
     <div class="container">
       <div class="main-header__logo-wrap header-logo">
-        <a class="header-logo__logo-link" href="#">
+        <a class="header-logo__logo-link" href="index.html">
           <picture>
             <source media="(min-width: 1300px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-desktop-header.svg">
             <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-tablet-header.svg">
             <img class="header-logo__logo-image" src="images/logo-mobile-header.svg" width="33" height="38" alt="Логотип сайта 'Кэт энерджи'">
           </picture>
         </a>
-        <a class="header-logo__logo-title-link" href="#">
+        <a class="header-logo__logo-title-link" href="index.html">
           <picture>
             <source media="(min-width: 1300px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-title-desktop-header.svg">
             <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-title-tablet-header.svg">
@@ -65,7 +65,7 @@
             программу питания для вашего кота</p>
         </div>
 
-        <form class="form" action="https://echo.htmlacademy.ru">
+        <form class="form" action="https://echo.htmlacademy.ru" method="get">
           <div class="form__wrap">
             <div class="form__user-wrap">
               <fieldset class="form__user user">
@@ -191,38 +191,36 @@
           </div>
         </div>
       </div>
-      <div class="main-footer__contacts contacts">
-        <div class="container">
-          <a class="contacts__footer-logo-link" href="#">
-            <img class="contacts__footer-logo-title-image" src="images/icon-title-footer-logo.svg" width="128" height="24" alt="Логотип c наименованием сайта 'Кэт энерджи'">
+      <div class="main-footer__contacts contacts container">
+        <a class="contacts__footer-logo-link" href="#">
+          <img class="contacts__footer-logo-title-image" src="images/icon-title-footer-logo.svg" width="128" height="24" alt="Логотип c наименованием сайта 'Кэт энерджи'">
+        </a>
+        <div class="contacts__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__item-link social-link-vk" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Иконка VK</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__item-link social-link-youtube" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Иконка Youtube</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__item-link social-link-telegram" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Иконка Telegram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <p class="copyright__text">HTML Academy</p>
           </a>
-          <div class="contacts__social social">
-            <ul class="social__list">
-              <li class="social__item">
-                <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="images/icon-vkontakte-mobile.svg" width="28" height="22" alt="Иконка VK">
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="images/icon-youtube-mobile.svg" width="28" height="22" alt="Иконка Youtube">
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__item-link" href="#">
-                  <img class="social__item-link-image" src="images/icon-telegram-mobile.svg" width="28" height="22" alt="Иконка Telegram">
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="contacts__copyright copyright">
-            <a class="copyright__link" href="#">
-              <p class="copyright__ext">HTML Academy</p>
-            </a>
-            <a class="copyright__logo-link" href="#">
-              <img class="copyright__logo-image" src="images/icon-html-academy-footer-mobile.svg" width="27" height="34" alt="Иконка HTML Academy">
-            </a>
-          </div>
+          <a class="copyright__logo-link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">Иконка HTML Academy</span>
+          </a>
         </div>
       </div>
     </div>

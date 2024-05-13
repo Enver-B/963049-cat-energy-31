@@ -1,10 +1,5 @@
 .products-cards {
   margin: 0;
-  margin-bottom: 20px;
-}
-
-.products-cards:last-child {
-  margin-bottom: 0;
 }
 
 .products-cards__slim,
@@ -22,7 +17,6 @@
 }
 
 .products-cards__link {
-  position: relative;
   font-family: $title-font;
   font-weight: 400;
   font-size: 16px;
@@ -31,19 +25,10 @@
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+}
 
-  &::after {
-    position: absolute;
-    content: "";
-    width: 24px;
-    height: 10px;
-    top: 7px;
-    right: -30px;
-    background-image: url("../../icons/stack.svg#icon-arrow-mobile");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px 10px;
-  }
+/*
+
 
   &:hover::after {
     width: 32px;
@@ -62,3 +47,4 @@
     fill: #b3b3b3;
   }
 }
+ */
