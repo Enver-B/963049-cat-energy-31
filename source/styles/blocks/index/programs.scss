@@ -1,5 +1,9 @@
 .programs__products-wrap {
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 45px;
+  }
 }
 
 .programs__products-list {
@@ -8,4 +12,9 @@
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
   grid-gap: 20px;
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(2, 570px);
+    gap: 80px;
+  }
 }

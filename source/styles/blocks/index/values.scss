@@ -1,16 +1,42 @@
+.values {
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 99px;
+  }
+}
+
 .values__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 32px;
+  max-width: 280px;
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    gap: 43px;
+    max-width: 365px;
+    margin-bottom: 0;
+  }
+}
+
+.values__weight-wrap,
+.values__time-wrap {
+  @media (min-width: $tablet-width) {
+    min-width: 162px;
+  }
 }
 
 .values__weight,
 .values__time {
-  min-width: 124px;
+  max-width: 124px;
   margin: 0;
   padding: 15px 25px 28px 22px;
   font-family: $title-font;
@@ -21,16 +47,31 @@
   color: $basic-black;
   border: 1px solid $basic-normal-grey;
   border-radius: 3px;
+  white-space: nowrap;
+
+  @media (min-width: $tablet-width) {
+    max-width: 162px;
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .values__weight-text,
 .values__time-text {
-  padding: 0 10px;
   margin: -12px 15px 0;
+  padding: 0 10px;
   font-size: 12px;
   line-height: 12px;
   text-align: center;
   background-color: $basic-grey;
+
+  @media (min-width: $tablet-width) {
+    margin: -9px 15px 0;
+    padding: 0 3px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: $basic-white;
+  }
 }
 
 .values__costs-wrap {
@@ -38,6 +79,11 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2px;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-end;
+    max-width: 174px;
+  }
 }
 
 .values__costs,
@@ -48,4 +94,9 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
