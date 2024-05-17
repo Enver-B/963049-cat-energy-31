@@ -59,7 +59,7 @@
 
     <section class="main-form__page-form page-form">
 
-      <div class="container">
+      <div class="container container-form">
 
         <div class="page-form__title-wrap">
           <h2 class="page-form__title">Подбор программы</h2>
@@ -140,34 +140,32 @@
               <legend class="visually-hidden">Дополнительные продукты к программе</legend>
               <div class="checkbox__wrap">
                 <h3 class="checkbox__title">Дополнительно</h3>
-                <ul class="checkbox__list">
-                  <li class="checkbox__item">
-                    <input class="checkbox__input" type="checkbox" id="sugar" name="sugar" checked>
-                    <label class="checkbox__label" for="sugar">Сахарозаменитель</label>
-                  </li>
-                  <li class="checkbox__item">
-                    <input class="checkbox__input" type="checkbox" id="water" name="water">
-                    <label class="checkbox__label" for="water">Питьевая вода</label>
-                  </li>
-                  <li class="checkbox__item">
-                    <input class="checkbox__input" type="checkbox" id="milk" name="milk">
-                    <label class="checkbox__label" for="milk">Молоко</label>
-                  </li>
-                  <li class="checkbox__item">
-                    <input class="checkbox__input" type="checkbox" id="vitamins" name="vitamins">
-                    <label class="checkbox__label" for="vitamins">Витамины</label>
-                  </li>
-                </ul>
+                <div class="checkbox__content-wrap">
+                  <ul class="checkbox__list">
+                    <li class="checkbox__item">
+                      <input class="checkbox__input" type="checkbox" id="sugar" name="sugar" checked>
+                      <label class="checkbox__label" for="sugar">Сахарозаменитель</label>
+                    </li>
+                    <li class="checkbox__item">
+                      <input class="checkbox__input" type="checkbox" id="water" name="water">
+                      <label class="checkbox__label" for="water">Питьевая вода</label>
+                    </li>
+                    <li class="checkbox__item">
+                      <input class="checkbox__input" type="checkbox" id="milk" name="milk">
+                      <label class="checkbox__label" for="milk">Молоко</label>
+                    </li>
+                    <li class="checkbox__item">
+                      <input class="checkbox__input" type="checkbox" id="vitamins" name="vitamins">
+                      <label class="checkbox__label" for="vitamins">Витамины</label>
+                    </li>
+                  </ul>
+                  <button class="checkbox__button form-button-send button-primary" type="submit">отправить заявку</button>
+                  <p class="checkbox__button-footnote">
+                    <small class="footnote">* — Обязательные поля</small>
+                  </p>
+                </div>
               </div>
             </fieldset>
-
-            <div class="form__form-button form-button">
-              <button class="form-button__send button-primary" type="submit">отправить заявку</button>
-              <p class="form-button__footnote">
-                <small class="footnote">* — Обязательные поля</small>
-              </p>
-            </div>
-
           </div>
         </form>
       </div>
