@@ -1,5 +1,9 @@
 .application__list-wrap {
   margin-bottom: 49px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 69px;
+  }
 }
 
 .application__title {
@@ -31,6 +35,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 280px);
     gap: 56px 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: 1fr;
+    gap: 94px;
   }
 }
 

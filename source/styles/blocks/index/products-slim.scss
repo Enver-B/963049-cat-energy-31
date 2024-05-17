@@ -12,6 +12,13 @@
     padding: 77px 33px 53px 52px;
   }
 
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 168px 1fr;
+    grid-template-rows: 106px 1fr 38px;
+    row-gap: 37px;
+    padding: 41px 61px 55px 52px;
+  }
+
   &::before {
     display: block;
     content: "";
@@ -32,8 +39,11 @@
     }
 
     @media (min-width: $desktop-width) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
       width: 100px;
       height: 106px;
+      margin: 0;
       background-size: 100px 106px;
     }
   }
@@ -54,6 +64,11 @@
 
   @media (min-width: $tablet-width) {
     grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-column: 1 / 4;
     grid-row: 2 / 3;
   }
 }

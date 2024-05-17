@@ -1,4 +1,6 @@
 .location {
+  position: relative;
+
   &--index-bg {
     background-color: $basic-white;
   }
@@ -7,11 +9,21 @@
 .location__address-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 26px;
   padding-bottom: 26px;
 
   @media (min-width: $tablet-width) {
     padding: 60px 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    gap: 87px;
+    top: 95px;
+    left: 110px;
+    max-width: 565px;
+    padding: 60px 78px;
   }
 }
 
