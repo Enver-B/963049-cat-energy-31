@@ -24,6 +24,7 @@
     left: 110px;
     max-width: 565px;
     padding: 60px 78px;
+    background-color: $basic-white;
   }
 }
 
@@ -67,7 +68,23 @@
   }
 }
 
+.location__map {
+  min-height: 362px;
+  width: 100%;
+  background-color: $basic-grey;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    min-height: 400px;
+    background-color: $basic-grey;
+  }
+}
+
 .location__map iframe {
   display: block;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    min-height: 400px;
+  }
 }

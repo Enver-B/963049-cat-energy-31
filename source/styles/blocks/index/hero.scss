@@ -9,13 +9,11 @@
 
 .hero__bg-wrap {
   margin-bottom: 20px;
-  background-image:
-    linear-gradient(to bottom, $basic-light-green 302px, $basic-white 100%),
-    url("../../../images/hero-background-mobile@1x.jpg");
+  background-image: url("../../../images/hero-background-mobile@1x.jpg"), linear-gradient(to bottom, $basic-normal-green 302px, $basic-white 100%);
   background-repeat: no-repeat;
   background-size:
-    100% 302px,
-    320px 302px;
+    320px 301px,
+    100% 302px;
   background-position: top center;
 
   @media (min-width: $tablet-width) {
@@ -31,13 +29,11 @@
     margin-bottom: 0;
     z-index: -1;
     background-color: $basic-white;
-    background-image:
-      linear-gradient(90deg, $basic-white 51%, $basic-light-green 50%),
-      url("../../../images/hero-background-desktop@2x.jpg");
+    background-image: url("../../../images/hero-background-desktop@2x.jpg"), linear-gradient(90deg, $basic-white 51%, $basic-normal-green 50%);
     background-repeat: no-repeat;
     background-size:
-      100% 694px,
-      720px 694px;
+      720px 694px,
+      100% 694px;
     background-position: top right;
   }
 }

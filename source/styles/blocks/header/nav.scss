@@ -1,3 +1,9 @@
+.nav--desktop .nav__item-link {
+  @media (min-width: $desktop-width) {
+    color: $basic-white;
+  }
+}
+
 .nav__list {
   @include base-list;
   display: flex;
@@ -37,11 +43,8 @@
     line-height: 24px;
   }
 
-  &--desktop {
-    @media (min-width: $desktop-width) {
-      font-size: 20px;
-      line-height: 30px;
-      color: $basic-white;
-    }
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

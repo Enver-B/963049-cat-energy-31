@@ -3,7 +3,6 @@
 
   @media (min-width: $tablet-width) {
     padding: 26px 38px 28px;
-    border: 1px solid $basic-normal-grey;
   }
 
   @media (min-width: $desktop-width) {
@@ -12,8 +11,6 @@
     grid-template-rows: 40px;
     gap: 40px;
     padding: 15px 0;
-    border-right: none;
-    border-left: none;
   }
 }
 
