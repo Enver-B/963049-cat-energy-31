@@ -1,7 +1,9 @@
 /* main-header */
 .main-header__wrap {
+  position: relative;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 
   @media (min-width: $tablet-width) {
     flex-direction: row;

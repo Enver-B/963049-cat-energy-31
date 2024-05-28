@@ -67,6 +67,10 @@
             <p class="hero__text">Занялся собой? Займись котом!</p>
             <div class="hero__image-wrap">
               <picture>
+                <source type="image/webp" media="(min-width: 1300px)" width="552" height="499" srcset="images/hero-image-desctop@1x.webp 1x, images/hero-image-desctop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" width="709" height="609" srcset="images/hero-image-tablet@1x.webp 1x, images/hero-image-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="images/hero-image-mobile@1x.webp 1x, images/hero-image-mobile@2x.webp 2x">
+
                 <source media="(min-width: 1300px)" width="552" height="499" type="image/png" srcset="images/hero-image-desctop@1x.png 1x, images/hero-image-desctop@2x.png 2x">
                 <source media="(min-width: 768px)" width="709" height="609" type="image/png"  srcset="images/hero-image-tablet@1x.png 1x,images/hero-image-tablet@2x.png 2x">
                 <img class="hero__image" src="images/hero-image-mobile@1x.png" srcset="images/hero-image-mobile@2x.png 2x" width="280" height="270" alt="Изображение мобильной версии продукта 'Кэт энерджи'">
@@ -168,12 +172,18 @@
           <div class="example__image-wrap">
             <div class="example__image-cat example__image-cat-before">
               <picture>
+                <source type="image/webp" media="(min-width: 768px)" width="560" height="512" srcset="images/cat-divider-tablet-after@1x.webp 1x, images/cat-divider-tablet-after@2x.webp 2x">
+                <source type="image/webp" srcset="images/cat-divider-mobile-after@1x.webp 1x, images/cat-divider-mobile-after@2x.webp 2x">
+
                 <source media="(min-width: 768px)" width="560" height="512" type="image/png" srcset="images/cat-divider-tablet-after@1x.png 1x, images/cat-divider-tablet-after@2x.png 2x">
                 <img class="example__image-after" src="images/cat-divider-mobile-after@1x.png" srcset="images/cat-divider-mobile-after@2x.png 2x" width="280" height="256" alt="Изображение кота после использования программы 'Кэт энерджи'">
               </picture>
             </div>
             <div class="example__image-cat example__image-cat-after">
               <picture>
+                <source type="image/webp" media="(min-width: 768px)" width="560" height="512" srcset="images/cat-divider-mobile-before@1x.webp 1x, images/cat-divider-mobile-before@2x.webp 2x">
+                <source type="image/webp" srcset="images/cat-divider-mobile-before@1x.webp 1x, images/cat-divider-mobile-before@2x.webp 2x">
+
                 <source media="(min-width: 768px)" width="560" height="512" type="image/png"  srcset="images/cat-divider-tablet-before@1x.png 1x, images/cat-divider-tablet-before@2x.png 2x">
                 <img class="example__image-before" src="images/cat-divider-mobile-before@1x.png" srcset="images/cat-divider-mobile-before@2x.png 2x" width="280" height="256" alt="Изображение кота до использования программы 'Кэт энерджи'">
               </picture>
